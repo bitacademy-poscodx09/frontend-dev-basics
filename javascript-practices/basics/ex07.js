@@ -1,10 +1,9 @@
 var MyMath = function(name) {
     console.log("MyObject called");
-
     this.name = name;
 };
 
-
+console.log(MyMath.prototype.constructor);
 
 console.log("============[02.02] prototype 객체");
 console.log("============[02.03] prototype.constructor");
@@ -18,3 +17,9 @@ console.log("============[05.01] prototype 객체의 '__proto__' 속성 확인")
 console.log("============[05.02] Object.prototype 객체 속성 사용하기");
 console.log("============[05.03] function 객체의 __proto__ 확인");
 console.log("============[06] Function.prototype 객체 속성 사용하기");
+
+
+
+
+
+
