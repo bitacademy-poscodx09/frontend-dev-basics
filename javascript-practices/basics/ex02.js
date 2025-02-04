@@ -18,3 +18,5 @@ console.log(k)
 // error: undefined error
 // console.lo
 // g('hello world')
+
+console.log(f(10));
